@@ -1,0 +1,32 @@
+.card3{
+    width: 100%;
+    background: #1D232C;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 3px;
+    color: #A5BBDC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card3-list{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.card3-list>p{
+    font-size: 12px;
+}
+.card3-img{
+    width: 100px;
+    height: 70px;
+}
+.yangilik-icon{
+    width: 35px;
+    height: 100%;
+    background: #232F3D;
+    text-align: center;
+    line-height: 70px;
+    font-size: 24px;
+    font-weight: 700;
+}

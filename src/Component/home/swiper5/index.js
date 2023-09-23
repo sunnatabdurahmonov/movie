@@ -1,0 +1,1 @@
+export {App5} from './Swiper5'

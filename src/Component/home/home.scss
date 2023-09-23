@@ -1,0 +1,129 @@
+@import '../mixsin.scss';
+.home{
+    background: #523B67;
+    background: rgba(82,59,103,.4);
+    margin-top: 30px;
+}
+.home-img{
+    max-width: 100%;
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+}
+.tarjima-kino{
+    width: 100%;
+    display: flex;
+    column-gap: 30px;
+    @include for-tablet{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
+.tasodifiy{
+    width: 25%;
+    // @include for-tablet{
+    //     display: none;
+    // }
+    @include for-tablet{
+        display: block;
+        width: 100%;
+    }
+}
+.kino{
+    width: 75%;
+    margin-top: 20px;
+    @include for-tablet{
+        width: 100%;
+    }
+}
+.internet{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.telegram{
+    width: 50px;
+    height: 50px;
+    background-color: #2fa6de;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tg{
+    color: white;
+    width: 100%;
+    max-width: 40px;
+    height: 40px;
+}
+.youtube{
+   width: 50px;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tube{
+    background-color: red;
+    color: white;
+    width: 100%;
+    max-width: 40px;
+    height: 40px;
+}
+.tiktok{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tok{
+    background-color: black;
+    color: white;
+    width: 100%;
+    max-width: 50px;
+    height: 50px;
+}
+.instagram{
+    width: 50px;
+    height: 50px;
+    background-color: #882083;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.insta{
+    color: white;
+    width: 100%;
+    max-width: 40px;
+    height: 40px;
+}
+.yangiliklar{
+    margin-top: 30px;
+}
+.card3-menu{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.yangilik-link{
+    text-decoration: none;
+    cursor: pointer;
+}
+.usa-kino{
+    margin-top: 30px;
+}
+.usa-film{
+    padding-top: 20px;
+}
+.link-kino{
+    text-decoration: none;
+    cursor: pointer;
+}

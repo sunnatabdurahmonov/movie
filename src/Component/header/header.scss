@@ -1,0 +1,224 @@
+@import '../mixsin.scss';
+.header{
+    background-color: #222933;
+    color: #6e879f;
+    
+}
+.header-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-list{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    list-style: none;
+    @include for-tablet{
+        display: none;
+    }
+
+}
+.header-link{
+    text-decoration: none;
+    color: #6e879f;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.uzmovie{
+    font-size: 32px;
+    @include for-phone{
+        font-size: 26px;
+    }
+}
+.btn-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    padding: 20px;
+    overflow: hidden;
+    font-size: 14px;
+    border: 1px solid #304156;
+    border-top: none;
+    text-align: left;
+    background: #232F3D;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(155,89,182,.1);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    position: absolute;
+    animation: slide-btn 0.5s cubic-bezier(0.25 , 0.46, 0.45 ,0.94) both;
+}
+.btn-menu-2{
+    display: none; 
+}
+
+@keyframes slide-btn {
+    0% {
+        transform: translateY(100px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.li-menu{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    cursor: pointer;
+}
+.menu-bar{
+    display: none;
+    @include for-tablet{
+        display: block;
+        display: flex;
+        align-items: center;
+        column-gap: 5px;
+        padding: 15px;
+        font-size: 12px;
+        border-radius: 5px;
+        background: #3B2946;
+        border: 1px solid #553f62;
+        margin: 7px 0;
+        color: white;
+    }
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+.sidebar{
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    background-color: #304156;
+}
+
+.header-list-3{
+    display: none;
+}
+.menu-item{
+    background: #213144;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-top: 5px;
+    width: 100%;
+    text-decoration: none;
+    color: #6e879f;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.header-list-2{
+    animation: slide-btn 0.5s cubic-bezier(0.25 , 0.46, 0.45 ,0.94) both;
+}
+.header-list-3{
+    display: none;
+}
+
+.menu-item-2{
+    background-color: #FF6907;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-top: 5px;
+    width: 100%;
+    text-decoration: none;
+    color: #6e879f;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.tg-btn{
+    max-width: 100%;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 5px;
+    background: #389ce9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+}
+.telegram-btn{
+    width: 25px;
+    height: 20px;
+}
+.search{
+    height: 40px;
+    width: 300px;
+    background: #222933;
+    color: #99b1d4;
+    line-height: 40px;
+    border: 1px solid #313842;
+    padding-left: 20px;
+    padding-right: 5px;
+    font-style: italic;
+    font-size: 14px;
+    border-radius: 5px;
+    @include for-tablet{
+        width: 100%;
+        max-width: 700px;
+        height: 40px;
+        background: #222933;
+        color: #99b1d4;
+        line-height: 40px;
+        border: 1px solid #313842;
+        padding-left: 20px;
+        padding-right: 5px;
+        font-style: italic;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+}
+.search-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+}
+.btn-1{
+    display: block;
+    color: #a5bbdc;
+    line-height: 38px;
+    width: 40px;
+    background: #222933;
+    border: 1px solid #313842;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn-list{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.search-menu{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.uzmovie-logo{
+    @include for-tablet-2{
+        width: 145px;
+        height: 40px;
+    }
+}

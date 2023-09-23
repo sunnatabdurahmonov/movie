@@ -1,0 +1,43 @@
+@import '../../mixsin.scss';
+.btn-none{
+    display: none;
+    @include for-tablet{
+        display: block;
+    }
+}
+.btn-list{
+    @include for-tablet{
+        display: none;
+    }
+}
+.btn-menu-none-2{
+    display: none;
+}
+.btn-menu-none{
+    display: none;
+  @include for-tablet{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    animation: slide-btn 0.5s cubic-bezier(0.25 , 0.46, 0.45 ,0.94) both;
+  }
+}
+.btn-1-none{
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    color: #a5bbdc;
+    column-gap: 5px;
+    line-height: 38px;
+    background: #222933;
+    border: 1px solid #313842;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn-telagram{
+    text-decoration: none;
+}

@@ -1,0 +1,54 @@
+@import '../mixsin.scss';
+.footer{
+    background: #222933;
+    color: #767f89;
+    padding-top: 20px;
+    border-top: 1px solid #313842;
+    border-bottom: 1px solid #313842;
+}
+.footer-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include for-tablet-3{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+}
+.footer-link{
+    display: block;
+    padding: 6px 10px;
+    background: #222933;
+    border: 1px solid #313842;
+    color: #a5bbdc;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.footer-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.footer-menu{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    @include for-tablet-3{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+}
+.oxirgi{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
