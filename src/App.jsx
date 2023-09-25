@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom"
 import { Layout } from "./Component/Layout"
 import { Home } from "./Component/home"
+import { KinoId } from "./Component/kinoId"
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <Layout>
       <Routes>
        <Route path="/" element={<Home/>}/>
+       <Route path="tarjimaKino/:kinoId" element={<KinoId/>}/>
       </Routes>
     </Layout>
   )

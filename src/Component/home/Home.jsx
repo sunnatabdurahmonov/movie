@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom';
 import { App4 } from './swiper4';
 import { App5 } from './swiper5';
 import { Sidebar } from './sidebar';
+import { BasicAccordion } from './accordion';
 
 export const Home = () => {
   return (
@@ -94,6 +95,9 @@ export const Home = () => {
 
   <div className="tasodifiy">
     <Sidebar/>
+   <div className="accordion-all-menu">
+   <BasicAccordion/>
+   </div>
   </div>
  </div>
      </div>

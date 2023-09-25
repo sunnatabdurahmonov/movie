@@ -28,7 +28,7 @@ export function App3() {
               lang: 'en'
             },
             headers: {
-              'X-RapidAPI-Key': 'fb1e8e0073mshd30150cf75d6ceep1275f3jsn492670931fa6',
+              'X-RapidAPI-Key': 'ba543beb6cmsh53468101855d482p1c46c7jsn65cb1da67182',
               'X-RapidAPI-Host': 'netflix54.p.rapidapi.com'
             }
           };
@@ -37,7 +37,7 @@ export function App3() {
               const response = await axios.request(options);
               const movieMap2 = response.data.titles.map((movie) => (
                 <SwiperSlide>
-                     <Link className="link-kino">
+                     <Link className="link-kino" to='/tarjimaKino'>
                      <Card2
                     movie2Img={movie.jawSummary.backgroundImage.url}
                     text2={movie.jawSummary.title}

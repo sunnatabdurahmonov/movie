@@ -1,0 +1,1 @@
+export {KinoId} from './KinoId'

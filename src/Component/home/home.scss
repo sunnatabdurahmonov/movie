@@ -22,9 +22,6 @@
 }
 .tasodifiy{
     width: 25%;
-    // @include for-tablet{
-    //     display: none;
-    // }
     @include for-tablet{
         display: block;
         width: 100%;
@@ -126,4 +123,7 @@
 .link-kino{
     text-decoration: none;
     cursor: pointer;
+}
+.accordion-all-menu{
+    margin-top: 20px;
 }
